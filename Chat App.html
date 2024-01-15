@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Two-Person Chat</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+    <div class="all">
+        <div id="persons">
+            <div id="John" class="person-selector" onclick="selectPerson('John')"><b>John</b> <span id="notification1">0</span></div>
+            <div id="Jane" class="person-selector" onclick="selectPerson('Jane')"><b>Jane</b> <span id="notification2">0</span></div>
+        </div>
+        <div id="chat-container">
+            <div id="chat-messages"></div>
+            <div id="user-input">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button type="button" id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

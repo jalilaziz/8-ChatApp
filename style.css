@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all {
+    max-width: 500px;
+    /* height: 510px; */
+    /* border: 1px solid; */
+    background-color: #a9a18e;
+    border-radius: 5px;
+    padding: 10px;
+}
+#chat-container {
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#chat-messages {
+    height: 360px;
+    overflow-y: scroll;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#user-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #8b7f64;
+}
+
+.person-selector {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#persons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 10px;
+}
+
+#John {
+    background-color: #8b7f64;
+    width: 45%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 2px;
+}
+
+#John:hover {
+    background-color: #00FA9A;
+}
+
+#Jane:hover {
+    background-color: #00FA9A;
+}
+
+#Jane {
+    background-color: #8b7f64;
+    width: 45%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 2px;
+}
+
+#notification1, #notification2 {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+#message-input {
+    width: 85%;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#send-button {
+    cursor: pointer;
+}
+
+.message {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.message-John {
+    background-color: #d5d5d5;
+    margin: 4px 0;
+    position: relative;
+    border-radius: 20px;
+    padding: 15px 15px;
+    width: 80%;
+    box-shadow: 2px 2px 4px;
+}
+
+.message-Jane {
+    background-color: #72c3f6;
+    margin: 4px 0;
+    position: relative;
+    border-radius: 20px;
+    padding: 15px 15px;
+    width: 80%;
+    left: 70px;
+    box-shadow: 2px 2px 4px;
+    
+}
+
+.get-time {
+    color: rgb(53, 53, 53);
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 14px;
+}
